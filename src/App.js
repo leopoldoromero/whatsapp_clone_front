@@ -1,9 +1,15 @@
 import './App.css';
+import Sidebar from "./components/sidebar/Sidebar"
+import Chat from "./components/chat/Chat"
+
 
 function App() {
   return (
-    <div className="App">
-      <h1>Hellow</h1>
+    <div className="app">
+      <div className="app__body">
+        <Sidebar/>
+        <Chat/>
+      </div>
     </div>
   );
 }
